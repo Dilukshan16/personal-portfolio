@@ -60,22 +60,24 @@ const About = () => {
               <hr style={{ width: "25%" }} />
             </div>
           </div>
-          <div className="about-education">
-            <div className="about-edu">
-              <h1>BSc (Hons) in Computing (Undergraduate)</h1>
-              <p>NIBM</p>
-            </div>
-            <hr />
-            <div className="about-edu">
-              <h1>GCE O/L</h1>
-              <p>St.John.Boscos College - Hatton</p>
-            </div>
-            <hr />
-            <div className="about-edu">
-              <h1>GCE A/L</h1>
-              <p>St.John.Boscos College - Hatton</p>
-            </div>
-          </div>
+        </div>
+      </div>
+      <div className="about-education">
+        <div className="about-edu">
+          <h1>BSc (Hons) in Computing (Undergraduate)</h1>
+          <p>NIBM</p>
+        </div>
+        <hr />
+        <div className="about-edu">
+          <h1>GCE O/L</h1>
+          <br />
+          <p>St.John.Boscos College - Hatton</p>
+        </div>
+        <hr />
+        <div className="about-edu">
+          <h1>GCE A/L</h1>
+          <br />
+          <p>St.John.Boscos College - Hatton</p>
         </div>
       </div>
     </div>
