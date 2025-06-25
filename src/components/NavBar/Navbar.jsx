@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import underline from "../../assets/nav_underline.svg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import menu_open from "../../assets/menu_open.svg";
 
 const Navbar = () => {
   const [menu, setMenu] = useState("home");
@@ -9,6 +10,7 @@ const Navbar = () => {
     <div className="Navbar">
       {/* image logo */}
       <h2>Dilukshan</h2>
+      <img src={menu_open} alt="" />
       <ul className="nav-menu">
         <li>
           <AnchorLink className="anchor-link" offset={50} href="#home">
