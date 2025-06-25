@@ -69,8 +69,8 @@
 }
 .contact-right input{
     border: none;
-    width: 700px;
-    height: 78px;
+    width: 600px;
+    height: 68px;
     padding-left: 20px;
     border-radius: 4px;
     background: #32323c;
@@ -79,7 +79,7 @@
     font-size: 20px;
 }
 .contact-right textarea{
-    width: 650px;
+    width: 600px;
     border: none;
     padding: 25px;
     border-radius: 4px;

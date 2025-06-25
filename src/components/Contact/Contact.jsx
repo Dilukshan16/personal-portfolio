@@ -22,11 +22,11 @@ const Contact = () => {
               <p>pdiluksan@gmail.com</p>
             </div>
             <div className="contact-detail">
-              <img src={location_icon} alt="" />
+              <img src={call_icon} alt="" />
               <p>0761610800</p>
             </div>
             <div className="contact-detail">
-              <img src={call_icon} alt="" />
+              <img src={location_icon} alt="" />
               <p>No.173/12b, Mihindhu Mawatha, Dehiwala</p>
             </div>
           </div>
