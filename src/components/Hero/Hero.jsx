@@ -1,10 +1,11 @@
 import React from "react";
 import "./Hero.css";
 import "../../assets/profile_img.jpg";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div id="home" className="hero">
       <img
         className="profile"
         src="https://i.postimg.cc/y6DvrT5N/Whats-App-Image-2025-04-04-at-15-55-52-9b71d0b9.jpg"
@@ -27,7 +28,11 @@ const Hero = () => {
         digital solutions.
       </p>
       <div className="hero-action">
-        <div className="hero-connect">Connect With Me</div>
+        <div className="hero-connect">
+          <AnchorLink className="anchor-link" offset={50} href="#contact">
+            Connect With Me
+          </AnchorLink>
+        </div>
         <div className="hero-resume">My Resume</div>
       </div>
     </div>
