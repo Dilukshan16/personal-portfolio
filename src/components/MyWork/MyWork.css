@@ -26,6 +26,12 @@
     gap: 30px;
     justify-content: center;
 }
+.mywork-container p{
+    font-size: 22px;
+    font-family: Outfit;
+    margin-top: 50px;
+    justify-content: center;
+}
 .mywork-container img{
     box-sizing: border-box;
     width: 410px;

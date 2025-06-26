@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
-import profile_img from "../../assets/profile_img.jpg";
+import profile_img3 from "../../assets/profile_img3.jpg";
 const About = () => {
   return (
     <div id="about" className="about">
@@ -12,7 +12,7 @@ const About = () => {
       <div className="about-sections">
         <div className="about-left">
           <img
-            src={profile_img}
+            src={profile_img3}
             alt=""
             style={{
               width: "250px",
