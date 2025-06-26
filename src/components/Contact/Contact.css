@@ -103,5 +103,51 @@
     transform: scale(1.1);
     transition: 0.3s;
 }
+@media(max-width:768px){
+    .contact{
+        gap: 40px;
+        margin: 30px 50px;
+        align-items: start;
+    }
+    .contact-title h1{
+        padding: 0;
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .contact-title img{
+        width: 120px;
+        margin-right: -20px;
+    }
+    .contact-section{
+        flex-direction: column;
+    }
+    .contact-left h1{
+        font-size: 40px;
+    }
+    .contact-left p{
+        font-size: 18px;
+    }
+    .contact-details{
+        gap: 20px;
+    }
+    .contact-detail img{
+        width: 25px;
+    }
+    .contact-right label{
+        font-size: 18px;
+    }
+    .contact-right input{
+        width: 100%;
+        font-size: 18px;
+    }
+    .contact-right textarea{
+        width: 93%;
+        font-size: 18px;
+    }
+    .contact-submit{
+        font-size: 18px;
+        padding: 14px 25px;
+    }
+}
 
 

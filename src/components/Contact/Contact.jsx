@@ -40,7 +40,7 @@ const Contact = () => {
           <h1>Let's Talk</h1>
           <p>I'm currently available, so feel free to ask</p>
           <div className="contact-details">
-            <div className="contactdetail">
+            <div className="contact-detail">
               <img src={mail_icon} alt="" />
               <p>pdiluksan@gmail.com</p>
             </div>

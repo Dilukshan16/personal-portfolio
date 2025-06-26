@@ -67,3 +67,37 @@
     transform: scale(1.05);
     transition: 0.4s;
 }
+@media(max-width:768px){
+    .services{
+        align-items: start;
+        gap: 50px;
+        margin: 20px 60px;
+    }
+    .services-title h1{
+        padding: 0;
+        font-size: 40px;
+    }
+    .services-title img{
+        width: 120px;
+        margin-right: -20px;
+    }
+    .services-format{
+        gap: 8px;
+        padding: 20px;
+    }
+    .services-format h2{
+        font-size: 25px;
+    }
+    .services-format p{
+        font-size: 16px;
+        line-height: 22px;
+        max-width: 200px;
+    }
+    .services-readmore img{
+        width: 20px;
+    }
+    .services-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+}

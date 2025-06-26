@@ -13,6 +13,7 @@
     font-size: 20px;
     max-width: 400px;
 }
+
 .footer-top-right{
     display: flex;
     align-items: center;
@@ -58,4 +59,33 @@
 .footer-subscribe:hover{
     transform: scale(1.1);
     transition: 0.3s;
+}
+@media(max-width:768px){
+    .footer{
+        margin: 30px 50px;
+    }
+    .footer-top{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer-top-left h2{ 
+        font-size: 40px;
+        font-weight: normal;
+    }
+    .footer-top-left p{
+        font-size: 18px;
+        max-width:400px;
+        font-weight: 200;
+    }   
+    .footer-bottom{
+        flex-direction: column-reverse;
+        margin-bottom: 30px;
+    }
+    .footer-email-input{
+        padding: 14px 25px;
+    }
+    .footer-subscribe{
+        padding: 14px 25px;
+        font-size: 18px;
+    }
 }
