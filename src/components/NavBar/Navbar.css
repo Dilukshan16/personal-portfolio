@@ -56,6 +56,7 @@
         display: block;
         position: fixed;
         right: 50px;
+        cursor: pointer;
     }
     .nav-mob-close{
         display: block;
